@@ -1,0 +1,10 @@
+<layout>
+  <configItem>
+    <name>bgc</name>
+    <shortDescription>bgc</shortDescription>
+    <description>Bulgarian (Colemak)</description>
+    <languageList>
+      <iso639Id>bul</iso639Id>
+    </languageList>
+  </configItem>
+</layout>
