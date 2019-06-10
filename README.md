@@ -7,3 +7,6 @@
 2. Копирайте файла ```symbols/bgc``` от това репо и го поставете в папката ```/usr/share/X11/xkb/symbols``` на вашата система
 
 3. Добавете ```Bulgarian (Colemak)``` към вашата система
+
+### Демо
+![bg-colemak](https://i.imgur.com/vVtdQQZ.png)
