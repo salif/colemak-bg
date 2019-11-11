@@ -29,7 +29,7 @@ xkb_symbols "basic" {
   key <AD08> {[ Cyrillic_u,        Cyrillic_U                                                ]};
   key <AD09> {[ Cyrillic_shorti,   Cyrillic_SHORTI                                           ]};
   key <AD10> {[ Cyrillic_shcha,    Cyrillic_SHCHA                                            ]};
-  key <AD11> {[ Cyrillic_hardsign, Cyrillic_HARDSIGN, bracketleft,       braceleft           ]};
+  key <AD11> {[ Cyrillic_yu,       Cyrillic_YU,       bracketleft,       braceleft           ]};
   key <AD12> {[ Cyrillic_softsign, U045D,             bracketright,      braceright          ]};
 
   key <AC01> {[ Cyrillic_a,        Cyrillic_A                                                ]};
@@ -42,7 +42,7 @@ xkb_symbols "basic" {
   key <AC08> {[ Cyrillic_ie,       Cyrillic_IE                                               ]};
   key <AC09> {[ Cyrillic_i,        Cyrillic_I                                                ]};
   key <AC10> {[ Cyrillic_o,        Cyrillic_O                                                ]};
-  key <AC11> {[ Cyrillic_yu,       Cyrillic_YU                                               ]};
+  key <AC11> {[ Cyrillic_hardsign, Cyrillic_HARDSIGN                                         ]};
   key <BKSL> {[ apostrophe,        quotedbl,          backslash,         bar                 ]};
 
   key <LSGT> {[ U045D,             U040D                                                     ]};

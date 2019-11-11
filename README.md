@@ -1,6 +1,6 @@
 # Българска версия на Colemak
 
-![bg-colemak](https://i.imgur.com/vVtdQQZ.png)
+![bg-colemak](res/screenshot.png)
 
 ## Инсталиране в Линукс ОС
 
