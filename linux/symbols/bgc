@@ -1,5 +1,5 @@
 // Bulgarian (Colemak)
-// Created by Salif Mehmed <salif@programmer.net>
+// Created by Salif Mehmed <salifm@salifm.com>
 
 default  partial alphanumeric_keys
 xkb_symbols "basic" {
