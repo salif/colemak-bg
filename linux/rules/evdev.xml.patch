@@ -1,0 +1,19 @@
+--- /usr/share/X11/xkb/rules/evdev.xml	2020-04-15 23:17:52.876816963 +0300
++++ ./linux/rules/evdev.xml.patch	2020-04-15 23:16:59.120146000 +0300
+@@ -2379,6 +2379,16 @@
+     </layout>
+     <layout>
+       <configItem>
++        <name>bgc</name>
++        <shortDescription>bgc</shortDescription>
++        <description>Bulgarian (Colemak)</description>
++        <languageList>
++          <iso639Id>bul</iso639Id>
++        </languageList>
++      </configItem>
++    </layout>
++    <layout>
++      <configItem>
+         <name>dz</name>
+         <shortDescription>la</shortDescription>
+         <description>Berber (Algeria, Latin)</description>
