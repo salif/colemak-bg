@@ -11,7 +11,7 @@
 
 След като имате инсталиран "git", изпълнете всяка от следните команди:
 
-```
+```fish
 git clone --depth=1 https://github.com/salifm/colemak-bg
 cd ./colemak-bg
 sudo cp ./linux/symbols/bgc /usr/share/X11/xkb/symbols/bgc
@@ -24,4 +24,4 @@ sudo patch /usr/share/X11/xkb/rules/evdev.xml ./linux/rules/evdev.xml.patch
 
 Готово!
 
-Ако не успеете да се справите, ми пишете имейл на адрес `salifm@salifm.com` или създайте "issue" към това хранилище.
+Ако не успеете да се справите създайте "issue" към това хранилище.
