@@ -1,0 +1,5 @@
+git@github.com:salifm/colemak-bg.git
+git@gitlab.com:salifm/colemak-bg.git
+git@bitbucket.org:salifm/colemak-bg.git
+git@gitea.com:salifm/colemak-bg.git
+git@codeberg.org:salifm/colemak-bg.git
