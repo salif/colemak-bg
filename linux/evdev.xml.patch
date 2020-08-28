@@ -1,7 +1,15 @@
-2434a2435,2440
->         <variant>
->           <configItem>
->             <name>colemak</name>
->             <description>Bulgarian (Colemak)</description>
->           </configItem>
->         </variant>
+--- /usr/share/X11/xkb/rules/evdev.xml	2020-08-28 15:15:14.961952191 +0300
++++ ./linux/evdev.xml	2020-08-28 16:30:11.573225906 +0300
+@@ -2432,6 +2432,12 @@
+             <description>Bulgarian (new phonetic)</description>
+           </configItem>
+         </variant>
++        <variant>
++          <configItem>
++            <name>colemak</name>
++            <description>Bulgarian (Colemak)</description>
++          </configItem>
++        </variant>
+       </variantList>
+     </layout>
+     <layout>

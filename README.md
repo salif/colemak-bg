@@ -1,6 +1,6 @@
-## Colemak за българка кирилица
+## Colemak за българката азбука
 
-![bg-colemak](res/scr.png)
+![preview bulgarian colemak](preview.png)
 
 ## Инсталиране в Линукс
 
@@ -16,4 +16,4 @@ sudo sh ./install.sh
 
 Готово!
 
-Ако не успеете да се справите създайте `issue` към това хранилище.
+Ако не успеете, създайте `issue` към това хранилище.
