@@ -1,9 +1,9 @@
---- ./bg	2020-08-29 13:05:22.363177750 +0300
-+++ ./linux/bg	2020-08-29 13:05:13.266189534 +0300
-@@ -249,3 +249,68 @@
- 
-   key <KPDL> { type[Group1] = "KEYPAD",             [ KP_Delete,         KP_Decimal          ]};
+--- bg	2021-01-05 11:51:29.555789314 +0200
++++ linux/bg	2021-01-05 11:53:16.032463298 +0200
+@@ -190,6 +190,69 @@
+   key <AB04> {[ Cyrillic_ve,       Cyrillic_VE                                               ]};
  };
+ 
 +
 +partial alphanumeric_keys
 +xkb_symbols "colemak" {
@@ -65,7 +65,8 @@
 +  key <AB09> {[ period,            greater      ]};
 +  key <AB10> {[ slash,             question     ]};
 +
-+//key <CAPS> {[ BackSpace,   BackSpace    ]};
-+  key <SPCE> {[ space,       nobreakspace ]};
-+
 +};
++
+ // This is an enhanced variant of the Bulgarian BDS keyboard, proposed
+ // in May 2020 by a group of more than 500 linguists, teachers, writers,
+ // translators, IT specialists, professors and many more.
