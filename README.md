@@ -7,7 +7,7 @@
 Изпълнете последователно всяка една от следните команди:
 
 ```fish
-git clone --depth=1 https://github.com/salifm/colemak-bg /tmp/colemak-bg
+git clone --depth=1 https://github.com/salif/colemak-bg /tmp/colemak-bg
 cd /tmp/colemak-bg
 sudo sh ./install.sh
 ```
