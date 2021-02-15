@@ -7,9 +7,9 @@
 Изпълнете последователно всяка една от следните команди:
 
 ```fish
+git clone --depth=1 https://github.com/salif/xkc-installer /tmp/xkc-installer
 git clone --depth=1 https://github.com/salif/colemak-bg /tmp/colemak-bg
-cd /tmp/colemak-bg
-sudo sh ./install.sh
+sudo EDITOR="${EDITOR:-nano}" /tmp/xkc-installer/installer.bash /tmp/colemak-bg/linux/xkc.conf
 ```
 
 След това добавете новоинсталираната клавиатурна подредба `Bulgarian (Colemak)` към вашите клавиатурни подредби от настройките на вашата графична среда.
