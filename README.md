@@ -1,10 +1,10 @@
-## Colemak за българката азбука
+## Bulgarian Colemak
 
 ![preview bulgarian colemak](preview.png)
 
-## Инсталиране в Линукс
+## Install on Linux
 
-Изпълнете последователно всяка една от следните команди:
+Run:
 
 ```fish
 git clone --depth=1 https://github.com/salif/xkc-installer /tmp/xkc-installer
@@ -12,8 +12,6 @@ git clone --depth=1 https://github.com/salif/colemak-bg /tmp/colemak-bg
 sudo EDITOR="${EDITOR:-nano}" /tmp/xkc-installer/installer.bash /tmp/colemak-bg/linux/xkc.conf
 ```
 
-След това добавете новоинсталираната клавиатурна подредба `Bulgarian (Colemak)` към вашите клавиатурни подредби от настройките на вашата графична среда.
+Then add `Bulgarian (Colemak)` via your desktop environment's settings.
 
-Готово!
-
-Ако не успеете, създайте `issue` към това хранилище.
+If it doesn't work then create an issue on this repository
