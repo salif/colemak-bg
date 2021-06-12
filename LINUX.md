@@ -1,21 +1,15 @@
-XCB_VERSION=1
-XCB_NAME="colemak"
-XCB_DESCRIPTION="Bulgarian (Colemak)"
-XCB_EVDEV_FILE="/usr/share/X11/xkb/rules/evdev.xml"
-XCB_LAYOUT_FILE="/usr/share/X11/xkb/symbols/bg"
-XCB_EVDEV="<variant>
-  <configItem>
-    <name>${XCB_NAME}</name>
-    <description>${XCB_DESCRIPTION}</description>
-  </configItem>
-</variant>"
-XCB_LAYOUT="partial alphanumeric_keys
-xkb_symbols \"${XCB_NAME}\" {
+# Install on Linux
 
-  include \"bg(bds)\"
-  include \"level3(ralt_switch)\"
+Put the following text block inside `/usr/share/X11/xkb/symbols/bg`
 
-  name[Group1]=\"${XCB_DESCRIPTION}\";
+```
+// github.com/salif/colemak-bg
+partial alphanumeric_keys
+xkb_symbols "colemak" {
+
+  include "bg(bds)"
+
+  name[Group1]="Bulgarian (Colemak)";
 
   key <TLDE> {[ semicolon,         colon,             grave,          asciitilde ]};
   key <AE01> {[ 1,                 exclam      ]};
@@ -69,4 +63,21 @@ xkb_symbols \"${XCB_NAME}\" {
   key <AB09> {[ period,            greater      ]};
   key <AB10> {[ slash,             question     ]};
 
-};"
+  include "level3(ralt_switch)"
+};
+```
+
+Put the following text block inside `/usr/share/X11/xkb/rules/evdev.xml`
+
+```
+<variant>
+  <configItem>
+    <name>colemak</name>
+    <description>Bulgarian (Colemak)</description>
+  </configItem>
+</variant>
+```
+
+Then add `Bulgarian (Colemak)` via your desktop environment's settings.
+
+If it doesn't work then create an issue on this repository
