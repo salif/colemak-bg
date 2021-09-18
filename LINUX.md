@@ -5,7 +5,7 @@ Put the following text block inside `/usr/share/X11/xkb/symbols/bg`
 ```
 // github.com/salif/colemak-bg
 partial alphanumeric_keys
-xkb_symbols "colemak" {
+xkb_symbols "colemak_bg" {
 
   include "bg(bds)"
 
@@ -72,7 +72,7 @@ Put the following text block inside `/usr/share/X11/xkb/rules/evdev.xml`
 ```
 <variant>
   <configItem>
-    <name>colemak</name>
+    <name>colemak_bg</name>
     <description>Bulgarian (Colemak)</description>
   </configItem>
 </variant>
