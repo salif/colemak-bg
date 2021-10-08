@@ -67,6 +67,12 @@ xkb_symbols "colemak_bg" {
 };
 ```
 
+Put the following text block inside `/usr/share/X11/xkb/rules/evdev.lst`
+
+```
+colemak_bg      bg: Bulgarian (Colemak)
+```
+
 Put the following text block inside `/usr/share/X11/xkb/rules/evdev.xml`
 
 ```
