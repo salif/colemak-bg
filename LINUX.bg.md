@@ -1,10 +1,10 @@
-# Install on Linux
+# Инсталирайте на Линукс
 
-In other languages: [English](LINUX.md), [Esperanto](LINUX.eo.md), [Български](LINUX.bg.md)
+На други езици: [English](LINUX.md), [Esperanto](LINUX.eo.md), [Български](LINUX.bg.md)
 
 ---
 
-Open `/usr/share/X11/xkb/symbols/bg` and append the following text block at the end of the file
+Отворете `/usr/share/X11/xkb/symbols/bg` и добавете следния текстов блок към края на файла
 
 ```
 // github.com/salif/colemak-bg
@@ -71,7 +71,7 @@ xkb_symbols "colemak_bg" {
 };
 ```
 
-Open `/usr/share/X11/xkb/rules/evdev.xml` and insert the following text block after the 'Bulgarian (enhanced)' variant
+Отворете `/usr/share/X11/xkb/rules/evdev.xml` и вмъкнете следния текстов блок след варианта 'Bulgarian (enhanced)'
 
 ```
 <variant>
@@ -82,6 +82,6 @@ Open `/usr/share/X11/xkb/rules/evdev.xml` and insert the following text block af
 </variant>
 ```
 
-Then add `Bulgarian (Colemak)` via the settings of your desktop environment
+След това добавете `Bulgarian (Colemak)` чрез настройките на вашата графична среда \(DE\)
 
-If unsuccessful, submit an issue to this git repository at [GitHub.com](https://github.com/salif/colemak-bg/issues/new/choose)
+Ако не успеете, изпратете проблем \(issue\) в това git хранилище на адрес [GitHub.com](https://github.com/salif/colemak-bg/issues/new/choose)
