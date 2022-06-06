@@ -8,4 +8,4 @@
 
 ## Инсталирайте на Линукс
 
-Вижте [LINUX.eo.md](./LINUX.eo.md)
+Вижте [LINUX.bg.md](./LINUX.bg.md)

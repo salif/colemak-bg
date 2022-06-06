@@ -71,7 +71,7 @@ xkb_symbols "colemak_bg" {
 };
 ```
 
-Open `/usr/share/X11/xkb/rules/evdev.xml` and insert the following text block after the 'Bulgarian (enhanced)' variant
+Open `/usr/share/X11/xkb/rules/evdev.xml` and insert the following text block after the `Bulgarian (enhanced)` variant
 
 ```
 <variant>

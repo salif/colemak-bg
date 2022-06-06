@@ -71,7 +71,7 @@ xkb_symbols "colemak_bg" {
 };
 ```
 
-Отворете `/usr/share/X11/xkb/rules/evdev.xml` и вмъкнете следния текстов блок след варианта 'Bulgarian (enhanced)'
+Отворете `/usr/share/X11/xkb/rules/evdev.xml` и вмъкнете следния текстов блок след варианта `Bulgarian (enhanced)`
 
 ```
 <variant>
