@@ -85,3 +85,5 @@ xkb_symbols "colemak_bg" {
 След това добавете `Bulgarian (Colemak)` чрез настройките на вашата графична среда \(DE\)
 
 Ако не успеете, изпратете проблем \(issue\) в това git хранилище на адрес [GitHub.com](https://github.com/salif/colemak-bg/issues/new/choose)
+
+[Назад](./README.bg.md)

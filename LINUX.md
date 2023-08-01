@@ -85,3 +85,5 @@ Open `/usr/share/X11/xkb/rules/evdev.xml` and insert the following text block af
 Then add `Bulgarian (Colemak)` via the settings of your desktop environment
 
 If unsuccessful, submit an issue to this git repository at [GitHub.com](https://github.com/salif/colemak-bg/issues/new/choose)
+
+[Back](./README.md)

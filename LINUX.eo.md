@@ -85,3 +85,5 @@ Malfermu `/usr/share/X11/xkb/rules/evdev.xml` kaj enigu la sekvan tekstoblokon p
 Poste aldonu `Bulgarian (Colemak)` per la agordoj de via fenestrilo \(DE\)
 
 Se malsukcese, sendu problemon \(issue\) al ĉi tiu git deponejo ĉe [GitHub.com](https://github.com/salif/colemak-bg/issues/new/choose)
+
+[Malantaŭen](./README.eo.md)
