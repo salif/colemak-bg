@@ -1,2 +1,11 @@
+plugins:
+  - jekyll-sitemap
+
 name: Bulgarian Colemak
 title: null
+description: Bulgarian Colemak keyboard layout
+repository: salif/colemak-bg
+
+author:
+  name: Salif Mehmed
+  url: https://salif.eu

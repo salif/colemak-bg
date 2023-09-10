@@ -4,7 +4,7 @@ En aliaj lingvoj: [English](README.md), [Esperanto](README.eo.md), [Българ
 
 ---
 
-![antaŭrigardu bulgara colemak](preview.png)
+![antaŭrigardu bulgara colemak](./media/preview.png)
 
 ## Instali en Linukso
 

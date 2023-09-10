@@ -4,6 +4,13 @@ In other languages: [English](LINUX.md), [Esperanto](LINUX.eo.md), [Българ
 
 ---
 
+First, backup some files. Run these commands:
+
+```
+cp /usr/share/X11/xkb/symbols/bg /usr/share/X11/xkb/symbols/bg.old
+cp /usr/share/X11/xkb/rules/evdev.xml /usr/share/X11/xkb/rules/evdev.xml.old
+```
+
 Open `/usr/share/X11/xkb/symbols/bg` and append the following text block at the end of the file
 
 ```
@@ -85,5 +92,18 @@ Open `/usr/share/X11/xkb/rules/evdev.xml` and insert the following text block af
 Then add `Bulgarian (Colemak)` via the settings of your desktop environment
 
 If unsuccessful, submit an issue to this git repository at [GitHub.com](https://github.com/salif/colemak-bg/issues/new/choose)
+
+## Uninstall
+
+To uninstall undo everything you did or restore old files:
+
+```
+mv /usr/share/X11/xkb/symbols/bg.old /usr/share/X11/xkb/symbols/bg
+mv /usr/share/X11/xkb/rules/evdev.xml.old /usr/share/X11/xkb/rules/evdev.xml
+```
+
+## Update
+
+Uninstall the old version and install the new version
 
 [Back](./README.md)
