@@ -11,7 +11,7 @@ points="15,19 21,19 23,23 18,11 13,23 " /></svg> : [english](LINUX.md), [бъл�
 
 Pertama, buat cadangan beberapa file. Jalankan perintah ini:
 
-```
+```bash
 cp /usr/share/X11/xkb/symbols/bg /usr/share/X11/xkb/symbols/bg.old
 cp /usr/share/X11/xkb/rules/evdev.xml /usr/share/X11/xkb/rules/evdev.xml.old
 ```
@@ -85,7 +85,7 @@ xkb_symbols "colemak_bg" {
 
 Membuka file `/usr/share/X11/xkb/rules/evdev.xml` dan masukkan blok teks berikut setelah `Bulgarian (enhanced)` variant.
 
-```
+```xml
 <variant>
   <configItem>
     <name>colemak_bg</name>
@@ -100,7 +100,7 @@ Lalu tambahkan `Bulgarian (Colemak)` melalui pengaturan lingkungan desktop Anda.
 
 Untuk menghapus instalasi, batalkan semua yang Anda lakukan atau pulihkan file lama:
 
-```
+```bash
 mv /usr/share/X11/xkb/symbols/bg.old /usr/share/X11/xkb/symbols/bg
 mv /usr/share/X11/xkb/rules/evdev.xml.old /usr/share/X11/xkb/rules/evdev.xml
 ```
@@ -109,8 +109,10 @@ mv /usr/share/X11/xkb/rules/evdev.xml.old /usr/share/X11/xkb/rules/evdev.xml
 
 Copot pemasangan versi lama dan pasang versi baru.
 
-[Kembali](./README.id.md)
-
 ---
 
 Halaman ini berisi teks yang diterjemahkan secara otomatis
+
+---
+
+[← Kembali](./README.id.md)

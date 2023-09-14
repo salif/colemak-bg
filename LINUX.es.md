@@ -11,7 +11,7 @@ points="15,19 21,19 23,23 18,11 13,23 " /></svg> : [english](LINUX.md), [бъл�
 
 Primero, haga una copia de seguridad de algunos archivos. Ejecute estos comandos:
 
-```
+```bash
 cp /usr/share/X11/xkb/symbols/bg /usr/share/X11/xkb/symbols/bg.old
 cp /usr/share/X11/xkb/rules/evdev.xml /usr/share/X11/xkb/rules/evdev.xml.old
 ```
@@ -85,7 +85,7 @@ xkb_symbols "colemak_bg" {
 
 Abrir documento `/usr/share/X11/xkb/rules/evdev.xml` e inserte el siguiente bloque de texto después de `Bulgarian (enhanced)` variant.
 
-```
+```xml
 <variant>
   <configItem>
     <name>colemak_bg</name>
@@ -100,7 +100,7 @@ Luego añade `Bulgarian (Colemak)` a través de la configuración de su entorno 
 
 Para desinstalar, deshaga todo lo que hizo o restaure los archivos antiguos:
 
-```
+```bash
 mv /usr/share/X11/xkb/symbols/bg.old /usr/share/X11/xkb/symbols/bg
 mv /usr/share/X11/xkb/rules/evdev.xml.old /usr/share/X11/xkb/rules/evdev.xml
 ```
@@ -109,8 +109,10 @@ mv /usr/share/X11/xkb/rules/evdev.xml.old /usr/share/X11/xkb/rules/evdev.xml
 
 Desinstale la versión anterior e instale la nueva versión.
 
-[Atrás](./README.es.md)
-
 ---
 
 Esta página contiene texto traducido automáticamente
+
+---
+
+[← Volver](./README.es.md)

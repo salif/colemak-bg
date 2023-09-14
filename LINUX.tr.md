@@ -11,7 +11,7 @@ points="15,19 21,19 23,23 18,11 13,23 " /></svg> : [english](LINUX.md), [бъл�
 
 Öncelikle bazı dosyaları yedekleyin. Bu komutları çalıştırın:
 
-```
+```bash
 cp /usr/share/X11/xkb/symbols/bg /usr/share/X11/xkb/symbols/bg.old
 cp /usr/share/X11/xkb/rules/evdev.xml /usr/share/X11/xkb/rules/evdev.xml.old
 ```
@@ -85,7 +85,7 @@ xkb_symbols "colemak_bg" {
 
 Açık dosya `/usr/share/X11/xkb/rules/evdev.xml` ve ardından aşağıdaki metin bloğunu ekleyin `Bulgarian (enhanced)` variant.
 
-```
+```xml
 <variant>
   <configItem>
     <name>colemak_bg</name>
@@ -100,7 +100,7 @@ Sonra Ekle `Bulgarian (Colemak)` masaüstü ortamınızın ayarları aracılığ
 
 Kaldırmak için yaptığınız her şeyi geri alın veya eski dosyaları geri yükleyin:
 
-```
+```bash
 mv /usr/share/X11/xkb/symbols/bg.old /usr/share/X11/xkb/symbols/bg
 mv /usr/share/X11/xkb/rules/evdev.xml.old /usr/share/X11/xkb/rules/evdev.xml
 ```
@@ -109,8 +109,10 @@ mv /usr/share/X11/xkb/rules/evdev.xml.old /usr/share/X11/xkb/rules/evdev.xml
 
 Eski sürümü kaldırın ve yeni sürümü yükleyin.
 
-[Geri](./README.tr.md)
-
 ---
 
 Bu sayfa otomatik olarak çevrilmiş metin içermektedir
+
+---
+
+[← Geri](./README.tr.md)

@@ -11,7 +11,7 @@ points="15,19 21,19 23,23 18,11 13,23 " /></svg> : [english](LINUX.md), [бъл�
 
 أولاً، قم بعمل نسخة احتياطية لبعض الملفات. قم بتشغيل هذه الأوامر:
 
-```
+```bash
 cp /usr/share/X11/xkb/symbols/bg /usr/share/X11/xkb/symbols/bg.old
 cp /usr/share/X11/xkb/rules/evdev.xml /usr/share/X11/xkb/rules/evdev.xml.old
 ```
@@ -85,7 +85,7 @@ xkb_symbols "colemak_bg" {
 
 افتح الملف `/usr/share/X11/xkb/rules/evdev.xml` وأدخل الكتلة النصية التالية بعد `Bulgarian (enhanced)` variant.
 
-```
+```xml
 <variant>
   <configItem>
     <name>colemak_bg</name>
@@ -100,7 +100,7 @@ xkb_symbols "colemak_bg" {
 
 لإلغاء التثبيت، قم بالتراجع عن كل ما قمت به أو استعادة الملفات القديمة:
 
-```
+```bash
 mv /usr/share/X11/xkb/symbols/bg.old /usr/share/X11/xkb/symbols/bg
 mv /usr/share/X11/xkb/rules/evdev.xml.old /usr/share/X11/xkb/rules/evdev.xml
 ```
@@ -109,8 +109,10 @@ mv /usr/share/X11/xkb/rules/evdev.xml.old /usr/share/X11/xkb/rules/evdev.xml
 
 قم بإلغاء تثبيت الإصدار القديم وتثبيت الإصدار الجديد.
 
-[خلف](./README.ar.md)
-
 ---
 
 تحتوي هذه الصفحة على نص مترجم تلقائيًا
+
+---
+
+[← العودة](./README.ar.md)

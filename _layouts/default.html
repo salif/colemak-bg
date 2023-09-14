@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-	<meta name="robots" content="index, follow" />
+    <meta name="robots" content="index, follow" />
 {% seo %}
     <link rel="stylesheet" href="{{ "/assets/css/style.css?v=" | append: site.github.build_revision | relative_url }}" />
     {% if jekyll.environment == "production" %}
@@ -17,7 +17,7 @@
 
       {% if site.github.private != true and site.github.license %}
       <div class="footer border-top border-gray-light mt-5 pt-3 text-right text-gray">
-        {{ page.footer_os | default: "This site is open source." }} {% github_edit_link "Improve this page" %}.
+        {{ site.data.values[page.lang].footer_os | default: "This site is open source." }} {% github_edit_link "Improve this page" %}.
       </div>
       {% endif %}
     </div>
