@@ -15,7 +15,6 @@ Primero, haga una copia de seguridad de algunos archivos. Ejecute estos comandos
 cp /usr/share/X11/xkb/symbols/bg /usr/share/X11/xkb/symbols/bg.old
 cp /usr/share/X11/xkb/rules/evdev.xml /usr/share/X11/xkb/rules/evdev.xml.old
 ```
-{: lang="en"}
 
 Abrir documento `/usr/share/X11/xkb/symbols/bg` y agregue el siguiente bloque de texto al final del archivo
 
@@ -83,7 +82,6 @@ xkb_symbols "colemak_bg" {
   include "level3(ralt_switch)"
 };
 ```
-{: lang="en"}
 
 Abrir documento `/usr/share/X11/xkb/rules/evdev.xml` e inserte el siguiente bloque de texto después de `Bulgarian (enhanced)` variant.
 
@@ -95,7 +93,6 @@ Abrir documento `/usr/share/X11/xkb/rules/evdev.xml` e inserte el siguiente bloq
   </configItem>
 </variant>
 ```
-{: lang="en"}
 
 Luego añade `Bulgarian (Colemak)` a través de la configuración de su entorno de escritorio.
 
@@ -107,10 +104,13 @@ Para desinstalar, deshaga todo lo que hizo o restaure los archivos antiguos:
 mv /usr/share/X11/xkb/symbols/bg.old /usr/share/X11/xkb/symbols/bg
 mv /usr/share/X11/xkb/rules/evdev.xml.old /usr/share/X11/xkb/rules/evdev.xml
 ```
-{: lang="en"}
 
 ## Actualización
 
 Desinstale la versión anterior e instale la nueva versión.
 
 [Atrás](./README.es.md)
+
+---
+
+Esta página contiene texto traducido automáticamente

@@ -20,10 +20,10 @@ points="15,19 21,19 23,23 18,11 13,23 " /></svg> : [english](README.md), [бъл
 * الصفحة الرئيسية: [salif.github.io/colemak-bg](https://salif.github.io/colemak-bg/)
 * مصدر الرمز: [github.com/salif/colemak-bg](https://github.com/salif/colemak-bg)
 * مصدر الرمز: [codeberg.org/salif/colemak-bg](https://codeberg.org/salif/colemak-bg)
-* مهام \(Github\): [github.com/salif/colemak-bg/issues](https://github.com/salif/colemak-bg/issues)
-* مهام \(Codeberg\): [codeberg.org/salif/colemak-bg/issues](https://codeberg.org/salif/colemak-bg/issues)
-* يناقش \(Github\): [github.com/salif/colemak-bg/discussions](https://github.com/salif/colemak-bg/discussions)
-* محادثة \(Element/Matrix\): [#salif-colemak:mozilla.org](https://matrix.to/#/#salif-colemak:mozilla.org)
+* مهام (Github): [github.com/salif/colemak-bg/issues](https://github.com/salif/colemak-bg/issues)
+* مهام (Codeberg): [codeberg.org/salif/colemak-bg/issues](https://codeberg.org/salif/colemak-bg/issues)
+* يناقش (Github): [github.com/salif/colemak-bg/discussions](https://github.com/salif/colemak-bg/discussions)
+* محادثة (Element/Matrix): [#salif-colemak:mozilla.org](https://matrix.to/#/#salif-colemak:mozilla.org)
 
 ## التثبيت
 
@@ -37,11 +37,11 @@ points="15,19 21,19 23,23 18,11 13,23 " /></svg> : [english](README.md), [бъл
 
 تحقق من قائمة المهام لمعرفة ما إذا كان قد تم الإبلاغ عن الخطأ الخاص بك بالفعل.
 
-إذا لم يكن الأمر كذلك، فأرسل مهمة جديدة \(`المشكلة`\).
+إذا لم يكن الأمر كذلك، قم بإنشاء مهمة جديدة (issue).
 
 ### أقترح تعزيز
 
-أنشئ مهمة \(`مشكلة`\) تصف التحسين.
+قم بإنشاء مهمة جديدة تصف التحسين.
 
 ### شفرة
 

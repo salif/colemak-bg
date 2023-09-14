@@ -20,10 +20,10 @@ Este es mi intento de transliterar una distribución de teclado de Colemak al b�
 * Página principal: [salif.github.io/colemak-bg](https://salif.github.io/colemak-bg/)
 * Código fuente: [github.com/salif/colemak-bg](https://github.com/salif/colemak-bg)
 * Código fuente: [codeberg.org/salif/colemak-bg](https://codeberg.org/salif/colemak-bg)
-* Tareas \(Github\): [github.com/salif/colemak-bg/issues](https://github.com/salif/colemak-bg/issues)
-* Tareas \(Codeberg\): [codeberg.org/salif/colemak-bg/issues](https://codeberg.org/salif/colemak-bg/issues)
-* Conversar \(Github\): [github.com/salif/colemak-bg/discussions](https://github.com/salif/colemak-bg/discussions)
-* Charlar \(Element/Matrix\): [#salif-colemak:mozilla.org](https://matrix.to/#/#salif-colemak:mozilla.org)
+* Tareas (Github): [github.com/salif/colemak-bg/issues](https://github.com/salif/colemak-bg/issues)
+* Tareas (Codeberg): [codeberg.org/salif/colemak-bg/issues](https://codeberg.org/salif/colemak-bg/issues)
+* Conversar (Github): [github.com/salif/colemak-bg/discussions](https://github.com/salif/colemak-bg/discussions)
+* Charlar (Element/Matrix): [#salif-colemak:mozilla.org](https://matrix.to/#/#salif-colemak:mozilla.org)
 
 ## Instalando
 
@@ -37,11 +37,11 @@ Ver página [LINUX.es.md](./LINUX.es.md)
 
 Consulte la lista de tareas para ver si su error ya ha sido informado.
 
-Si no es así, envíe una nueva tarea \(`issue`\).
+Si no es así, cree una nueva tarea (issue).
 
 ### Sugerir una mejora
 
-Cree una tarea \(`issue`\) que describa la mejora.
+Cree una nueva tarea que describa la mejora.
 
 ### Código
 

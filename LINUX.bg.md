@@ -15,7 +15,6 @@ points="15,19 21,19 23,23 18,11 13,23 " /></svg> : [english](LINUX.md), [中文]
 cp /usr/share/X11/xkb/symbols/bg /usr/share/X11/xkb/symbols/bg.old
 cp /usr/share/X11/xkb/rules/evdev.xml /usr/share/X11/xkb/rules/evdev.xml.old
 ```
-{: lang="en"}
 
 Отворете файла `/usr/share/X11/xkb/symbols/bg` и добавете следния текстов блок в края на файла
 
@@ -83,7 +82,6 @@ xkb_symbols "colemak_bg" {
   include "level3(ralt_switch)"
 };
 ```
-{: lang="en"}
 
 Отворете файла `/usr/share/X11/xkb/rules/evdev.xml` и вмъкнете следния текстов блок след `Bulgarian (enhanced)` variant.
 
@@ -95,7 +93,6 @@ xkb_symbols "colemak_bg" {
   </configItem>
 </variant>
 ```
-{: lang="en"}
 
 След това добавете `Bulgarian (Colemak)` чрез настройките на вашата работна среда.
 
@@ -107,10 +104,13 @@ xkb_symbols "colemak_bg" {
 mv /usr/share/X11/xkb/symbols/bg.old /usr/share/X11/xkb/symbols/bg
 mv /usr/share/X11/xkb/rules/evdev.xml.old /usr/share/X11/xkb/rules/evdev.xml
 ```
-{: lang="en"}
 
 ## Актуализиране
 
 Деинсталирайте старата версия и инсталирайте новата версия.
 
 [Обратно](./README.bg.md)
+
+---
+
+Тази страница съдържа автоматично преведен текст

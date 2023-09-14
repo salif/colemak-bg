@@ -20,10 +20,10 @@ Esta é minha tentativa de fazer um layout de teclado transliterado do Colemak p
 * Pagina inicial: [salif.github.io/colemak-bg](https://salif.github.io/colemak-bg/)
 * Código fonte: [github.com/salif/colemak-bg](https://github.com/salif/colemak-bg)
 * Código fonte: [codeberg.org/salif/colemak-bg](https://codeberg.org/salif/colemak-bg)
-* Tarefas \(Github\): [github.com/salif/colemak-bg/issues](https://github.com/salif/colemak-bg/issues)
-* Tarefas \(Codeberg\): [codeberg.org/salif/colemak-bg/issues](https://codeberg.org/salif/colemak-bg/issues)
-* Discutir \(Github\): [github.com/salif/colemak-bg/discussions](https://github.com/salif/colemak-bg/discussions)
-* Bater papo \(Element/Matrix\): [#salif-colemak:mozilla.org](https://matrix.to/#/#salif-colemak:mozilla.org)
+* Tarefas (Github): [github.com/salif/colemak-bg/issues](https://github.com/salif/colemak-bg/issues)
+* Tarefas (Codeberg): [codeberg.org/salif/colemak-bg/issues](https://codeberg.org/salif/colemak-bg/issues)
+* Discutir (Github): [github.com/salif/colemak-bg/discussions](https://github.com/salif/colemak-bg/discussions)
+* Bater papo (Element/Matrix): [#salif-colemak:mozilla.org](https://matrix.to/#/#salif-colemak:mozilla.org)
 
 ## Instalando
 
@@ -37,11 +37,11 @@ Veja a página [LINUX.pt.md](./LINUX.pt.md)
 
 Verifique a lista de tarefas para ver se o seu bug já foi relatado.
 
-Caso contrário, envie uma nova tarefa \(`issue`\).
+Caso contrário, crie uma nova tarefa (issue).
 
 ### Sugira um aprimoramento
 
-Crie uma tarefa \(`issue`\) que descreva o aprimoramento.
+Crie uma nova tarefa que descreva o aprimoramento.
 
 ### Código
 

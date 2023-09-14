@@ -20,10 +20,10 @@ Jen mia provo fari klavaran aranĝon transliterumitan de Colemak en la bulgaran.
 * Hejmpaĝo: [salif.github.io/colemak-bg](https://salif.github.io/colemak-bg/)
 * Fontkodo: [github.com/salif/colemak-bg](https://github.com/salif/colemak-bg)
 * Fontkodo: [codeberg.org/salif/colemak-bg](https://codeberg.org/salif/colemak-bg)
-* Taskoj \(Github\): [github.com/salif/colemak-bg/issues](https://github.com/salif/colemak-bg/issues)
-* Taskoj \(Codeberg\): [codeberg.org/salif/colemak-bg/issues](https://codeberg.org/salif/colemak-bg/issues)
-* Diskuti \(Github\): [github.com/salif/colemak-bg/discussions](https://github.com/salif/colemak-bg/discussions)
-* Babilado \(Element/Matrix\): [#salif-colemak:mozilla.org](https://matrix.to/#/#salif-colemak:mozilla.org)
+* Taskoj (Github): [github.com/salif/colemak-bg/issues](https://github.com/salif/colemak-bg/issues)
+* Taskoj (Codeberg): [codeberg.org/salif/colemak-bg/issues](https://codeberg.org/salif/colemak-bg/issues)
+* Diskuti (Github): [github.com/salif/colemak-bg/discussions](https://github.com/salif/colemak-bg/discussions)
+* Babilado (Element/Matrix): [#salif-colemak:mozilla.org](https://matrix.to/#/#salif-colemak:mozilla.org)
 
 ## Instalado
 
@@ -37,11 +37,11 @@ Vidu paĝon [LINUX.eo.md](./LINUX.eo.md)
 
 Kontrolu la liston de taskoj por vidi ĉu via cimo jam estis raportita.
 
-Se ĝi ne havas, sendu novan taskon \(`afero`\).
+Se ĝi ne havas, kreu novan taskon (issue).
 
 ### Proponu plibonigon
 
-Kreu taskon \(`afero`\) kiu priskribas la plibonigon.
+Kreu novan taskon, kiu priskribas la plibonigon.
 
 ### Kodo
 

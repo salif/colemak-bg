@@ -20,10 +20,10 @@ points="15,19 21,19 23,23 18,11 13,23 " /></svg> : [english](README.md), [бъл
 * 主页: [salif.github.io/colemak-bg](https://salif.github.io/colemak-bg/)
 * 源代码: [github.com/salif/colemak-bg](https://github.com/salif/colemak-bg)
 * 源代码: [codeberg.org/salif/colemak-bg](https://codeberg.org/salif/colemak-bg)
-* 任务 \(Github\): [github.com/salif/colemak-bg/issues](https://github.com/salif/colemak-bg/issues)
-* 任务 \(Codeberg\): [codeberg.org/salif/colemak-bg/issues](https://codeberg.org/salif/colemak-bg/issues)
-* 讨论 \(Github\): [github.com/salif/colemak-bg/discussions](https://github.com/salif/colemak-bg/discussions)
-* 聊天 \(Element/Matrix\): [#salif-colemak:mozilla.org](https://matrix.to/#/#salif-colemak:mozilla.org)
+* 任务 (Github): [github.com/salif/colemak-bg/issues](https://github.com/salif/colemak-bg/issues)
+* 任务 (Codeberg): [codeberg.org/salif/colemak-bg/issues](https://codeberg.org/salif/colemak-bg/issues)
+* 讨论 (Github): [github.com/salif/colemak-bg/discussions](https://github.com/salif/colemak-bg/discussions)
+* 聊天 (Element/Matrix): [#salif-colemak:mozilla.org](https://matrix.to/#/#salif-colemak:mozilla.org)
 
 ## 安装
 
@@ -37,11 +37,11 @@ points="15,19 21,19 23,23 18,11 13,23 " /></svg> : [english](README.md), [бъл
 
 检查任务列表以查看您的错误是否已被报告.
 
-如果没有，请提交一个新任务\(`issue`\).
+如果没有，请创建一个新任务 (issue).
 
 ### 建议增强
 
-创建一个描述增强功能的任务\(`issue`\).
+创建一个描述增强功能的新任务.
 
 ### 代码
 

@@ -20,10 +20,10 @@ points="15,19 21,19 23,23 18,11 13,23 " /></svg> : [english](README.md), [бъл
 * Домашняя страница: [salif.github.io/colemak-bg](https://salif.github.io/colemak-bg/)
 * Исходный код: [github.com/salif/colemak-bg](https://github.com/salif/colemak-bg)
 * Исходный код: [codeberg.org/salif/colemak-bg](https://codeberg.org/salif/colemak-bg)
-* Задания \(Github\): [github.com/salif/colemak-bg/issues](https://github.com/salif/colemak-bg/issues)
-* Задания \(Codeberg\): [codeberg.org/salif/colemak-bg/issues](https://codeberg.org/salif/colemak-bg/issues)
-* Обсуждать \(Github\): [github.com/salif/colemak-bg/discussions](https://github.com/salif/colemak-bg/discussions)
-* Чат \(Element/Matrix\): [#salif-colemak:mozilla.org](https://matrix.to/#/#salif-colemak:mozilla.org)
+* Задания (Github): [github.com/salif/colemak-bg/issues](https://github.com/salif/colemak-bg/issues)
+* Задания (Codeberg): [codeberg.org/salif/colemak-bg/issues](https://codeberg.org/salif/colemak-bg/issues)
+* Обсуждать (Github): [github.com/salif/colemak-bg/discussions](https://github.com/salif/colemak-bg/discussions)
+* Чат (Element/Matrix): [#salif-colemak:mozilla.org](https://matrix.to/#/#salif-colemak:mozilla.org)
 
 ## Установка
 
@@ -37,11 +37,11 @@ points="15,19 21,19 23,23 18,11 13,23 " /></svg> : [english](README.md), [бъл
 
 Проверьте список задач, чтобы узнать, не сообщалось ли уже о вашей ошибке.
 
-Если это не так, отправьте новую задачу \(`issue`\).
+Если это не так, создайте новую задачу (issue).
 
 ### Предложите улучшение
 
-Создайте задачу \(`issue`\), описывающую улучшение.
+Создайте новую задачу, описывающую улучшение.
 
 ### Код
 

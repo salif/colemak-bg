@@ -15,7 +15,6 @@ points="15,19 21,19 23,23 18,11 13,23 " /></svg> : [english](LINUX.md), [бъл�
 cp /usr/share/X11/xkb/symbols/bg /usr/share/X11/xkb/symbols/bg.old
 cp /usr/share/X11/xkb/rules/evdev.xml /usr/share/X11/xkb/rules/evdev.xml.old
 ```
-{: lang="en"}
 
 打开文件 `/usr/share/X11/xkb/symbols/bg` 并将以下文本块附加到文件末尾
 
@@ -83,7 +82,6 @@ xkb_symbols "colemak_bg" {
   include "level3(ralt_switch)"
 };
 ```
-{: lang="en"}
 
 打开文件 `/usr/share/X11/xkb/rules/evdev.xml` 并在后面插入以下文本块 `Bulgarian (enhanced)` variant.
 
@@ -95,7 +93,6 @@ xkb_symbols "colemak_bg" {
   </configItem>
 </variant>
 ```
-{: lang="en"}
 
 然后加 `Bulgarian (Colemak)` 通过桌面环境的设置.
 
@@ -107,10 +104,13 @@ xkb_symbols "colemak_bg" {
 mv /usr/share/X11/xkb/symbols/bg.old /usr/share/X11/xkb/symbols/bg
 mv /usr/share/X11/xkb/rules/evdev.xml.old /usr/share/X11/xkb/rules/evdev.xml
 ```
-{: lang="en"}
 
 ## 正在更新
 
 卸载旧版本并安装新版本.
 
 [后退](./README.zh-CN.md)
+
+---
+
+此页面包含自动翻译的文本

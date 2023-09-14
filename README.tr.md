@@ -20,10 +20,10 @@ Bu benim Colemak'tan Bulgarcaya çevrilmiş bir klavye düzeni yapma girişimim.
 * Ana sayfa: [salif.github.io/colemak-bg](https://salif.github.io/colemak-bg/)
 * Kaynak kodu: [github.com/salif/colemak-bg](https://github.com/salif/colemak-bg)
 * Kaynak kodu: [codeberg.org/salif/colemak-bg](https://codeberg.org/salif/colemak-bg)
-* Görevler \(Github\): [github.com/salif/colemak-bg/issues](https://github.com/salif/colemak-bg/issues)
-* Görevler \(Codeberg\): [codeberg.org/salif/colemak-bg/issues](https://codeberg.org/salif/colemak-bg/issues)
-* Tartışmak \(Github\): [github.com/salif/colemak-bg/discussions](https://github.com/salif/colemak-bg/discussions)
-* Sohbet \(Element/Matrix\): [#salif-colemak:mozilla.org](https://matrix.to/#/#salif-colemak:mozilla.org)
+* Görevler (Github): [github.com/salif/colemak-bg/issues](https://github.com/salif/colemak-bg/issues)
+* Görevler (Codeberg): [codeberg.org/salif/colemak-bg/issues](https://codeberg.org/salif/colemak-bg/issues)
+* Tartışmak (Github): [github.com/salif/colemak-bg/discussions](https://github.com/salif/colemak-bg/discussions)
+* Sohbet (Element/Matrix): [#salif-colemak:mozilla.org](https://matrix.to/#/#salif-colemak:mozilla.org)
 
 ## Kurulum
 
@@ -37,11 +37,11 @@ Bkz. sayfa [LINUX.tr.md](./LINUX.tr.md)
 
 Hatanızın daha önce bildirilip bildirilmediğini görmek için görevler listesini kontrol edin.
 
-Gönderilmemişse yeni bir görev \(`sorun`\) gönderin.
+Eğer yoksa yeni bir görev oluşturun (issue).
 
 ### Bir geliştirme önerin
 
-Geliştirmeyi açıklayan bir görev \(`sorun`\) oluşturun.
+Geliştirmeyi açıklayan yeni bir görev oluşturun.
 
 ### Kod
 

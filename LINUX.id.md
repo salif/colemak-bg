@@ -15,7 +15,6 @@ Pertama, buat cadangan beberapa file. Jalankan perintah ini:
 cp /usr/share/X11/xkb/symbols/bg /usr/share/X11/xkb/symbols/bg.old
 cp /usr/share/X11/xkb/rules/evdev.xml /usr/share/X11/xkb/rules/evdev.xml.old
 ```
-{: lang="en"}
 
 Membuka file `/usr/share/X11/xkb/symbols/bg` dan tambahkan blok teks berikut di akhir file
 
@@ -83,7 +82,6 @@ xkb_symbols "colemak_bg" {
   include "level3(ralt_switch)"
 };
 ```
-{: lang="en"}
 
 Membuka file `/usr/share/X11/xkb/rules/evdev.xml` dan masukkan blok teks berikut setelah `Bulgarian (enhanced)` variant.
 
@@ -95,7 +93,6 @@ Membuka file `/usr/share/X11/xkb/rules/evdev.xml` dan masukkan blok teks berikut
   </configItem>
 </variant>
 ```
-{: lang="en"}
 
 Lalu tambahkan `Bulgarian (Colemak)` melalui pengaturan lingkungan desktop Anda.
 
@@ -107,10 +104,13 @@ Untuk menghapus instalasi, batalkan semua yang Anda lakukan atau pulihkan file l
 mv /usr/share/X11/xkb/symbols/bg.old /usr/share/X11/xkb/symbols/bg
 mv /usr/share/X11/xkb/rules/evdev.xml.old /usr/share/X11/xkb/rules/evdev.xml
 ```
-{: lang="en"}
 
 ## Memperbarui
 
 Copot pemasangan versi lama dan pasang versi baru.
 
 [Kembali](./README.id.md)
+
+---
+
+Halaman ini berisi teks yang diterjemahkan secara otomatis

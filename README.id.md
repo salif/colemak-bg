@@ -20,10 +20,10 @@ Ini adalah upaya saya untuk membuat tata letak keyboard ditransliterasikan dari 
 * Beranda: [salif.github.io/colemak-bg](https://salif.github.io/colemak-bg/)
 * Kode sumber: [github.com/salif/colemak-bg](https://github.com/salif/colemak-bg)
 * Kode sumber: [codeberg.org/salif/colemak-bg](https://codeberg.org/salif/colemak-bg)
-* Tugas \(Github\): [github.com/salif/colemak-bg/issues](https://github.com/salif/colemak-bg/issues)
-* Tugas \(Codeberg\): [codeberg.org/salif/colemak-bg/issues](https://codeberg.org/salif/colemak-bg/issues)
-* Membahas \(Github\): [github.com/salif/colemak-bg/discussions](https://github.com/salif/colemak-bg/discussions)
-* Mengobrol \(Element/Matrix\): [#salif-colemak:mozilla.org](https://matrix.to/#/#salif-colemak:mozilla.org)
+* Tugas (Github): [github.com/salif/colemak-bg/issues](https://github.com/salif/colemak-bg/issues)
+* Tugas (Codeberg): [codeberg.org/salif/colemak-bg/issues](https://codeberg.org/salif/colemak-bg/issues)
+* Membahas (Github): [github.com/salif/colemak-bg/discussions](https://github.com/salif/colemak-bg/discussions)
+* Mengobrol (Element/Matrix): [#salif-colemak:mozilla.org](https://matrix.to/#/#salif-colemak:mozilla.org)
 
 ## Menginstal
 
@@ -37,11 +37,11 @@ Lihat halaman [LINUX.id.md](./LINUX.id.md)
 
 Periksa daftar tugas untuk melihat apakah bug Anda telah dilaporkan.
 
-Jika belum, kirimkan tugas baru \(`issue`\).
+Jika belum, buat tugas baru (issue).
 
 ### Sarankan peningkatan
 
-Buat tugas \(`issue`\) yang menjelaskan penyempurnaan.
+Buat tugas baru yang menjelaskan peningkatan.
 
 ### Kode
 

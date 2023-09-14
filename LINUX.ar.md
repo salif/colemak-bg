@@ -15,7 +15,6 @@ points="15,19 21,19 23,23 18,11 13,23 " /></svg> : [english](LINUX.md), [бъл�
 cp /usr/share/X11/xkb/symbols/bg /usr/share/X11/xkb/symbols/bg.old
 cp /usr/share/X11/xkb/rules/evdev.xml /usr/share/X11/xkb/rules/evdev.xml.old
 ```
-{: lang="en"}
 
 افتح الملف `/usr/share/X11/xkb/symbols/bg` وقم بإلحاق الكتلة النصية التالية في نهاية الملف
 
@@ -83,7 +82,6 @@ xkb_symbols "colemak_bg" {
   include "level3(ralt_switch)"
 };
 ```
-{: lang="en"}
 
 افتح الملف `/usr/share/X11/xkb/rules/evdev.xml` وأدخل الكتلة النصية التالية بعد `Bulgarian (enhanced)` variant.
 
@@ -95,7 +93,6 @@ xkb_symbols "colemak_bg" {
   </configItem>
 </variant>
 ```
-{: lang="en"}
 
 ثم أضف `Bulgarian (Colemak)` من خلال إعدادات بيئة سطح المكتب لديك.
 
@@ -107,10 +104,13 @@ xkb_symbols "colemak_bg" {
 mv /usr/share/X11/xkb/symbols/bg.old /usr/share/X11/xkb/symbols/bg
 mv /usr/share/X11/xkb/rules/evdev.xml.old /usr/share/X11/xkb/rules/evdev.xml
 ```
-{: lang="en"}
 
 ## تحديث
 
 قم بإلغاء تثبيت الإصدار القديم وتثبيت الإصدار الجديد.
 
 [خلف](./README.ar.md)
+
+---
+
+تحتوي هذه الصفحة على نص مترجم تلقائيًا

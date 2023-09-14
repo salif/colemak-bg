@@ -15,7 +15,6 @@ First, backup some files. Run these commands:
 cp /usr/share/X11/xkb/symbols/bg /usr/share/X11/xkb/symbols/bg.old
 cp /usr/share/X11/xkb/rules/evdev.xml /usr/share/X11/xkb/rules/evdev.xml.old
 ```
-{: lang="en"}
 
 Open file `/usr/share/X11/xkb/symbols/bg` and append the following text block at the end of the file
 
@@ -83,7 +82,6 @@ xkb_symbols "colemak_bg" {
   include "level3(ralt_switch)"
 };
 ```
-{: lang="en"}
 
 Open file `/usr/share/X11/xkb/rules/evdev.xml` and insert the following text block after the `Bulgarian (enhanced)` variant.
 
@@ -95,7 +93,6 @@ Open file `/usr/share/X11/xkb/rules/evdev.xml` and insert the following text blo
   </configItem>
 </variant>
 ```
-{: lang="en"}
 
 Then add `Bulgarian (Colemak)` via the settings of your desktop environment.
 
@@ -107,10 +104,13 @@ To uninstall undo everything you did or restore the old files:
 mv /usr/share/X11/xkb/symbols/bg.old /usr/share/X11/xkb/symbols/bg
 mv /usr/share/X11/xkb/rules/evdev.xml.old /usr/share/X11/xkb/rules/evdev.xml
 ```
-{: lang="en"}
 
 ## Updating
 
 Uninstall the old version and install the new version.
 
 [Back](./README.md)
+
+---
+
+This page contains automatically translated text
