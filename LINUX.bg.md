@@ -1,10 +1,23 @@
-# Инсталирайте на Линукс
+# Инсталирайте на Linux
 
-На други езици: [English](LINUX.md), [Esperanto](LINUX.eo.md), [Български](LINUX.bg.md)
+<span><svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" fill="none"
+style="vertical-align: sub;" viewBox="0 0 24 24" stroke="currentColor"
+stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path
+class="st0" d="M2,16c0.1,0,8-5,9-7c0.6-1.3,1-5,1-5h3H1h7V1" /><line
+class="st0" x1="4" y1="8" x2="12" y2="16" /><polygon class="st0"
+points="15,19 21,19 23,23 18,11 13,23 " /></svg> : [english](LINUX.md), [中文](LINUX.zh-CN.md), [español](LINUX.es.md), [العربية](LINUX.ar.md), [português](LINUX.pt.md), [русский](LINUX.ru.md), [bahasa](LINUX.id.md), [türkçe](LINUX.tr.md), [esperanto](LINUX.eo.md)</span>
 
 ---
 
-Отворете `/usr/share/X11/xkb/symbols/bg` и добавете следния текстов блок към края на файла
+Първо архивирайте някои файлове. Изпълнете тези команди:
+
+```
+cp /usr/share/X11/xkb/symbols/bg /usr/share/X11/xkb/symbols/bg.old
+cp /usr/share/X11/xkb/rules/evdev.xml /usr/share/X11/xkb/rules/evdev.xml.old
+```
+{: lang="en"}
+
+Отворете файла `/usr/share/X11/xkb/symbols/bg` и добавете следния текстов блок в края на файла
 
 ```
 // github.com/salif/colemak-bg
@@ -70,8 +83,9 @@ xkb_symbols "colemak_bg" {
   include "level3(ralt_switch)"
 };
 ```
+{: lang="en"}
 
-Отворете `/usr/share/X11/xkb/rules/evdev.xml` и вмъкнете следния текстов блок след варианта `Bulgarian (enhanced)`
+Отворете файла `/usr/share/X11/xkb/rules/evdev.xml` и вмъкнете следния текстов блок след `Bulgarian (enhanced)` variant.
 
 ```
 <variant>
@@ -81,9 +95,22 @@ xkb_symbols "colemak_bg" {
   </configItem>
 </variant>
 ```
+{: lang="en"}
 
-След това добавете `Bulgarian (Colemak)` чрез настройките на вашата графична среда \(DE\)
+След това добавете `Bulgarian (Colemak)` чрез настройките на вашата работна среда.
 
-Ако не успеете, изпратете проблем \(issue\) в това git хранилище на адрес [GitHub.com](https://github.com/salif/colemak-bg/issues/new/choose)
+## Деинсталиране
 
-[Назад](./README.bg.md)
+За да деинсталирате, отменете всичко, което сте направили, или възстановете старите файлове:
+
+```
+mv /usr/share/X11/xkb/symbols/bg.old /usr/share/X11/xkb/symbols/bg
+mv /usr/share/X11/xkb/rules/evdev.xml.old /usr/share/X11/xkb/rules/evdev.xml
+```
+{: lang="en"}
+
+## Актуализиране
+
+Деинсталирайте старата версия и инсталирайте новата версия.
+
+[Обратно](./README.bg.md)

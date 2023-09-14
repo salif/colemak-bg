@@ -1,6 +1,11 @@
 # Install on Linux
 
-In other languages: [English](LINUX.md), [Esperanto](LINUX.eo.md), [Български](LINUX.bg.md)
+<span><svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" fill="none"
+style="vertical-align: sub;" viewBox="0 0 24 24" stroke="currentColor"
+stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path
+class="st0" d="M2,16c0.1,0,8-5,9-7c0.6-1.3,1-5,1-5h3H1h7V1" /><line
+class="st0" x1="4" y1="8" x2="12" y2="16" /><polygon class="st0"
+points="15,19 21,19 23,23 18,11 13,23 " /></svg> : [български](LINUX.bg.md), [中文](LINUX.zh-CN.md), [español](LINUX.es.md), [العربية](LINUX.ar.md), [português](LINUX.pt.md), [русский](LINUX.ru.md), [bahasa](LINUX.id.md), [türkçe](LINUX.tr.md), [esperanto](LINUX.eo.md)</span>
 
 ---
 
@@ -10,8 +15,9 @@ First, backup some files. Run these commands:
 cp /usr/share/X11/xkb/symbols/bg /usr/share/X11/xkb/symbols/bg.old
 cp /usr/share/X11/xkb/rules/evdev.xml /usr/share/X11/xkb/rules/evdev.xml.old
 ```
+{: lang="en"}
 
-Open `/usr/share/X11/xkb/symbols/bg` and append the following text block at the end of the file
+Open file `/usr/share/X11/xkb/symbols/bg` and append the following text block at the end of the file
 
 ```
 // github.com/salif/colemak-bg
@@ -77,8 +83,9 @@ xkb_symbols "colemak_bg" {
   include "level3(ralt_switch)"
 };
 ```
+{: lang="en"}
 
-Open `/usr/share/X11/xkb/rules/evdev.xml` and insert the following text block after the `Bulgarian (enhanced)` variant
+Open file `/usr/share/X11/xkb/rules/evdev.xml` and insert the following text block after the `Bulgarian (enhanced)` variant.
 
 ```
 <variant>
@@ -88,22 +95,22 @@ Open `/usr/share/X11/xkb/rules/evdev.xml` and insert the following text block af
   </configItem>
 </variant>
 ```
+{: lang="en"}
 
-Then add `Bulgarian (Colemak)` via the settings of your desktop environment
+Then add `Bulgarian (Colemak)` via the settings of your desktop environment.
 
-If unsuccessful, submit an issue to this git repository at [GitHub.com](https://github.com/salif/colemak-bg/issues/new/choose)
+## Uninstalling
 
-## Uninstall
-
-To uninstall undo everything you did or restore old files:
+To uninstall undo everything you did or restore the old files:
 
 ```
 mv /usr/share/X11/xkb/symbols/bg.old /usr/share/X11/xkb/symbols/bg
 mv /usr/share/X11/xkb/rules/evdev.xml.old /usr/share/X11/xkb/rules/evdev.xml
 ```
+{: lang="en"}
 
-## Update
+## Updating
 
-Uninstall the old version and install the new version
+Uninstall the old version and install the new version.
 
 [Back](./README.md)

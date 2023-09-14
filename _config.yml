@@ -1,11 +1,62 @@
 plugins:
   - jekyll-sitemap
+  - jekyll-seo-tag
 
-name: Bulgarian Colemak
-title: null
+exclude:
+  - "*.all.md"
+  - "*.all.json"
+
+title: Bulgarian Colemak
 description: Bulgarian Colemak keyboard layout
 repository: salif/colemak-bg
 
 author:
   name: Salif Mehmed
   url: https://salif.eu
+
+defaults:
+  - scope:
+      path: "*.bg.md"
+    values:
+      lang: "bg"
+      footer_os: "Този сайт е с отворен код."
+  - scope:
+      path: "*.eo.md"
+    values:
+      lang: "eo"
+      footer_os: "Ĉi tiu retejo estas malfermita fonto."
+  - scope:
+      path: "*.tr.md"
+    values:
+      lang: "tr"
+      footer_os: "Bu site açık kaynaktır."
+  - scope:
+      path: "*.zh-CN.md"
+    values:
+      lang: "zh-CN"
+      footer_os: "该网站是开源的。"
+  - scope:
+      path: "*.es.md"
+    values:
+      lang: "es"
+      footer_os: "Este sitio es de código abierto."
+  - scope:
+      path: "*.ar.md"
+    values:
+      lang: "ar"
+      footer_os: "هذا الموقع مفتوح المصدر."
+  - scope:
+      path: "*.pt.md"
+    values:
+      lang: "pt"
+      footer_os: "Este site é de código aberto."
+  - scope:
+      path: "*.ru.md"
+    values:
+      lang: "ru"
+      footer_os: "Este site é de código aberto."
+  - scope:
+      path: "*.id.md"
+    values:
+      lang: "id"
+      footer_os: "Situs ini bersifat open source."
