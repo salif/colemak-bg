@@ -1,6 +1,6 @@
-# „:Install on Linux“
+# „:Installing on Linux“
 
-„:---“
+„:Translation:“ „:---“
 
 ---
 
@@ -78,7 +78,7 @@ xkb_symbols "colemak_bg" {
 };
 ```
 
-„:Open file“ `/usr/share/X11/xkb/rules/evdev.xml` „:and insert the following text block after the“ `Bulgarian (enhanced)` variant.
+„:Open file“ `/usr/share/X11/xkb/rules/evdev.xml` „:and insert the following text block after the variant“ `Bulgarian (enhanced)`.
 
 ```xml
 <variant>
