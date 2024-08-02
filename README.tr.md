@@ -9,10 +9,9 @@ Bu benim Bulgar diline ve Kiril alfabesine uyarlanmış Colemak'ı temel alan bi
 ## Bağlantılar
 
 * [Ana sayfa](https://salif.github.io/colemak-bg/)
-* [Tartışma (Github)](https://github.com/salif/colemak-bg/discussions)
+* [Kaynak kodu](https://codeberg.org/salif/colemak-bg)
+* [Tartışmalar (Github)](https://github.com/salif/colemak-bg/discussions)
 * [Sohbet odası (Element/Matrix)](https://matrix.to/#/#salif-colemak:mozilla.org)
-* [Kaynak kodu (Github)](https://github.com/salif/colemak-bg)
-* [Kaynak kodu (Codeberg)](https://codeberg.org/salif/colemak-bg)
 
 ## Kurulum
 
@@ -20,12 +19,22 @@ Bu benim Bulgar diline ve Kiril alfabesine uyarlanmış Colemak'ı temel alan bi
 
 Bu sayfaya bakın: [LINUX.tr.md](./LINUX.tr.md)
 
+### Diğer işletim sistemlerine kurulum
+
+Size yardımcı olamam, işletim sisteminize kendiniz yüklemenin bir yolunu bulmaya çalışın.
+
 ## Katkı
 
-Bir hata bulursanız veya aklınızda bir iyileştirme varsa, bunu [Github] veya [Codeberg] üzerinde paylaşmaktan veya Github veya Codeberg üzerinden bir çekme isteği göndermekten çekinmeyin
+Bir hata bulursanız veya bir iyileştirme önermek isterseniz, bunu [Codeberg] veya [Github] üzerinde paylaşmaktan veya bir çekme isteği göndermekten çekinmeyin.
 
-[Github]: https://github.com/salif/colemak-bg/issues
+[Github]: https://github.com/salif/colemak-bg/discussions
 [Codeberg]: https://codeberg.org/salif/colemak-bg/issues
+
+## Diğer klavye düzenleri
+
+* [Rus dili için](https://salif.github.io/colemak-ru/)
+* [Türkçe dili için](https://salif.github.io/colemak-tr/)
+* [Esperanto dili için](https://salif.github.io/colemak-eo/)
 
 ---
 

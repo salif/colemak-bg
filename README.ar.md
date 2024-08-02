@@ -9,10 +9,9 @@
 ## روابط
 
 * [الصفحة الرئيسية](https://salif.github.io/colemak-bg/)
-* [مناقشة (Github)](https://github.com/salif/colemak-bg/discussions)
+* [مصدر الرمز](https://codeberg.org/salif/colemak-bg)
+* [مناقشات (Github)](https://github.com/salif/colemak-bg/discussions)
 * [غرفة الدردشة (Element/Matrix)](https://matrix.to/#/#salif-colemak:mozilla.org)
-* [مصدر الرمز (Github)](https://github.com/salif/colemak-bg)
-* [مصدر الرمز (Codeberg)](https://codeberg.org/salif/colemak-bg)
 
 ## التثبيت
 
@@ -20,12 +19,22 @@
 
 انظر هذه الصفحة: [LINUX.ar.md](./LINUX.ar.md)
 
+### التثبيت على أنظمة التشغيل الأخرى
+
+لا أستطيع مساعدتك، حاول العثور على طريقة للتثبيت على نظام التشغيل لديك بنفسك.
+
 ## المساهمة
 
-إذا وجدت خطأً أو كان لديك تحسين في ذهنك، فلا تتردد في مشاركته على [Github] أو [Codeberg]، أو إرسال طلب سحب على Github أو Codeberg.
+إذا وجدت خطأ ما أو أردت اقتراح تحسين، فلا تتردد في مشاركته على [Codeberg] أو [Github]، أو إرسال طلب سحب.
 
-[Github]: https://github.com/salif/colemak-bg/issues
+[Github]: https://github.com/salif/colemak-bg/discussions
 [Codeberg]: https://codeberg.org/salif/colemak-bg/issues
+
+## تخطيطات لوحة المفاتيح الأخرى
+
+* [للغة الروسية](https://salif.github.io/colemak-ru/)
+* [للغة التركية](https://salif.github.io/colemak-tr/)
+* [للغة الاسبرانتو](https://salif.github.io/colemak-eo/)
 
 ---
 

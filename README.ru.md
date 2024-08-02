@@ -9,10 +9,9 @@
 ## Ссылки
 
 * [Домашняя страница](https://salif.github.io/colemak-bg/)
-* [Обсуждение (Github)](https://github.com/salif/colemak-bg/discussions)
+* [Исходный код](https://codeberg.org/salif/colemak-bg)
+* [Обсуждения (Github)](https://github.com/salif/colemak-bg/discussions)
 * [Чат (Element/Matrix)](https://matrix.to/#/#salif-colemak:mozilla.org)
-* [Исходный код (Github)](https://github.com/salif/colemak-bg)
-* [Исходный код (Codeberg)](https://codeberg.org/salif/colemak-bg)
 
 ## Установка
 
@@ -20,12 +19,22 @@
 
 Смотрите эту страницу: [LINUX.ru.md](./LINUX.ru.md)
 
+### Установка на другие операционные системы
+
+Я не могу вам помочь, попробуйте найти способ установки на вашу ОС самостоятельно.
+
 ## Содействие
 
-Если вы обнаружили ошибку или хотите улучшить ее, поделитесь ею на [Github] или [Codeberg] или отправьте запрос на включение на Github или Codeberg
+Если вы обнаружили ошибку или хотите предложить улучшение, поделитесь ею на [Codeberg] или [Github] или отправьте запрос на включение.
 
-[Github]: https://github.com/salif/colemak-bg/issues
+[Github]: https://github.com/salif/colemak-bg/discussions
 [Codeberg]: https://codeberg.org/salif/colemak-bg/issues
+
+## Другие раскладки клавиатуры
+
+* [Для русского языка](https://salif.github.io/colemak-ru/)
+* [Для турецкого языка](https://salif.github.io/colemak-tr/)
+* [Для языка эсперанто](https://salif.github.io/colemak-eo/)
 
 ---
 

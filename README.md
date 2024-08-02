@@ -9,10 +9,9 @@ This is my attempt to make a keyboard layout based on Colemak, adapted for the B
 ## Links
 
 * [Homepage](https://salif.github.io/colemak-bg/)
-* [Discussion (Github)](https://github.com/salif/colemak-bg/discussions)
+* [Source code](https://codeberg.org/salif/colemak-bg)
+* [Discussions (Github)](https://github.com/salif/colemak-bg/discussions)
 * [Chat room (Element/Matrix)](https://matrix.to/#/#salif-colemak:mozilla.org)
-* [Source code (Github)](https://github.com/salif/colemak-bg)
-* [Source code (Codeberg)](https://codeberg.org/salif/colemak-bg)
 
 ## Installing
 
@@ -20,12 +19,22 @@ This is my attempt to make a keyboard layout based on Colemak, adapted for the B
 
 See this page: [LINUX.md](./LINUX.md)
 
+### Installing on other operating systems
+
+I can't help you, try to find a way to install on your OS yourself.
+
 ## Contributing
 
-If you find a bug or have an improvement in mind, feel free to share it on [Github] or [Codeberg], or submit a pull request on Github or Codeberg.
+If you find a bug or want to suggest an improvement, feel free to share it on [Codeberg] or [Github], or submit a pull request.
 
-[Github]: https://github.com/salif/colemak-bg/issues
+[Github]: https://github.com/salif/colemak-bg/discussions
 [Codeberg]: https://codeberg.org/salif/colemak-bg/issues
+
+## Other keyboard layouts
+
+* [For Russian language](https://salif.github.io/colemak-ru/)
+* [For Turkish language](https://salif.github.io/colemak-tr/)
+* [For Esperanto language](https://salif.github.io/colemak-eo/)
 
 ---
 

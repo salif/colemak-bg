@@ -4,14 +4,20 @@ Tradução: [english](LINUX.md), [български](LINUX.bg.md), [中文](LIN
 
 ---
 
-Primeiro, faça backup de alguns arquivos. Execute estes comandos:
+Não sou especialista em instalação de layouts de teclado; essas instruções podem não funcionar para todos os usuários do Linux.
+
+## Siga estas instruções
+
+**1.** Primeiro, faça backup de alguns arquivos executando estes comandos:
 
 ```bash
 cp /usr/share/X11/xkb/symbols/bg /usr/share/X11/xkb/symbols/bg.old
 cp /usr/share/X11/xkb/rules/evdev.xml /usr/share/X11/xkb/rules/evdev.xml.old
 ```
 
-Abrir arquivo `/usr/share/X11/xkb/symbols/bg` e anexe o seguinte bloco de texto no final do arquivo
+Se você receber um erro, primeiro execute este comando: `su -l root`, tente executar os comandos novamente ou substitua `cp` por `sudo cp`.
+
+**2.** Abrir arquivo `/usr/share/X11/xkb/symbols/bg` e anexe o seguinte bloco de texto no final do arquivo:
 
 ```
 // github.com/salif/colemak-bg
@@ -78,7 +84,7 @@ xkb_symbols "colemak_bg" {
 };
 ```
 
-Abrir arquivo `/usr/share/X11/xkb/rules/evdev.xml` e insira o seguinte bloco de texto após a variante `Bulgarian (enhanced)`.
+**3.** Abrir arquivo `/usr/share/X11/xkb/rules/evdev.xml` e insira o seguinte bloco de texto após a variante `Bulgarian (enhanced)`:
 
 ```xml
 <variant>
@@ -89,11 +95,11 @@ Abrir arquivo `/usr/share/X11/xkb/rules/evdev.xml` e insira o seguinte bloco de 
 </variant>
 ```
 
-Em seguida, adicione `Bulgarian (Colemak)` através das configurações do seu ambiente de trabalho.
+**4.** Em seguida, adicione `Bulgarian (Colemak)` através das configurações do seu ambiente de trabalho.
 
 ## Desinstalando
 
-Para desinstalar, desfaça tudo o que você fez ou restaure os arquivos antigos:
+Para desinstalar, restaure os arquivos antigos ou desfaça tudo o que você fez:
 
 ```bash
 mv /usr/share/X11/xkb/symbols/bg.old /usr/share/X11/xkb/symbols/bg

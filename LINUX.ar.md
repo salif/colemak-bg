@@ -4,14 +4,20 @@
 
 ---
 
-أولاً، قم بعمل نسخة احتياطية لبعض الملفات. قم بتشغيل هذه الأوامر:
+أنا لست خبيرًا في تثبيت تخطيطات لوحة المفاتيح، وقد لا تعمل هذه التعليمات مع جميع مستخدمي Linux.
+
+## اتبع هذه التعليمات
+
+**1.** أولاً، قم بعمل نسخة احتياطية لبعض الملفات عن طريق تشغيل هذه الأوامر:
 
 ```bash
 cp /usr/share/X11/xkb/symbols/bg /usr/share/X11/xkb/symbols/bg.old
 cp /usr/share/X11/xkb/rules/evdev.xml /usr/share/X11/xkb/rules/evdev.xml.old
 ```
 
-افتح الملف `/usr/share/X11/xkb/symbols/bg` وقم بإلحاق الكتلة النصية التالية في نهاية الملف
+إذا حصلت على خطأ، قم أولاً بتشغيل هذا الأمر: `su -l root`, ثم حاول تشغيل الأوامر مرة أخرى، أو استبدل `cp` بـ`sudo cp`.
+
+**2.** افتح الملف `/usr/share/X11/xkb/symbols/bg` وقم بإلحاق الكتلة النصية التالية في نهاية الملف:
 
 ```
 // github.com/salif/colemak-bg
@@ -78,7 +84,7 @@ xkb_symbols "colemak_bg" {
 };
 ```
 
-افتح الملف `/usr/share/X11/xkb/rules/evdev.xml` وأدخل الكتلة النصية التالية بعد المتغير `Bulgarian (enhanced)`.
+**3.** افتح الملف `/usr/share/X11/xkb/rules/evdev.xml` وأدخل الكتلة النصية التالية بعد المتغير `Bulgarian (enhanced)`:
 
 ```xml
 <variant>
@@ -89,11 +95,11 @@ xkb_symbols "colemak_bg" {
 </variant>
 ```
 
-ثم أضف `Bulgarian (Colemak)` من خلال إعدادات بيئة سطح المكتب لديك.
+**4.** ثم أضف `Bulgarian (Colemak)` من خلال إعدادات بيئة سطح المكتب لديك.
 
 ## إلغاء التثبيت
 
-لإلغاء التثبيت، قم بالتراجع عن كل ما قمت به أو استعادة الملفات القديمة:
+لإلغاء التثبيت، قم باستعادة الملفات القديمة أو التراجع عن كل ما قمت به:
 
 ```bash
 mv /usr/share/X11/xkb/symbols/bg.old /usr/share/X11/xkb/symbols/bg

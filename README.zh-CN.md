@@ -9,10 +9,9 @@
 ## 链接
 
 * [主页](https://salif.github.io/colemak-bg/)
+* [源代码](https://codeberg.org/salif/colemak-bg)
 * [讨论 (Github)](https://github.com/salif/colemak-bg/discussions)
 * [聊天室 (Element/Matrix)](https://matrix.to/#/#salif-colemak:mozilla.org)
-* [源代码 (Github)](https://github.com/salif/colemak-bg)
-* [源代码 (Codeberg)](https://codeberg.org/salif/colemak-bg)
 
 ## 安装
 
@@ -20,12 +19,22 @@
 
 请参阅此页： [LINUX.zh-CN.md](./LINUX.zh-CN.md)
 
+### 在其他操作系统上安装
+
+我无法帮助你，请尝试自行找到一种在你的操作系统上安装的方法.
+
 ## 贡献
 
-如果您发现错误或有改进想法，请随时在 [Github] 或 [Codeberg] 上分享，或在 Github 或 Codeberg 上提交拉取请求
+如果您发现错误或想要提出改进建议，请随时在 [Codeberg] 或 [Github] 上分享，或提交拉取请求.
 
-[Github]: https://github.com/salif/colemak-bg/issues
+[Github]: https://github.com/salif/colemak-bg/discussions
 [Codeberg]: https://codeberg.org/salif/colemak-bg/issues
+
+## 其他键盘布局
+
+* [对于俄语](https://salif.github.io/colemak-ru/)
+* [对于土耳其语](https://salif.github.io/colemak-tr/)
+* [对于世界语](https://salif.github.io/colemak-eo/)
 
 ---
 
