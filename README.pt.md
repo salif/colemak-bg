@@ -2,9 +2,22 @@
 
 Tradução: [english](README.md), [български](README.bg.md), [中文](README.zh-CN.md), [español](README.es.md), [العربية](README.ar.md), [русский](README.ru.md), [bahasa](README.id.md), [türkçe](README.tr.md), [esperanto](README.eo.md)
 
-![Visualize o Colemak búlgaro](./media/preview.png)
+---
 
 Esta é minha tentativa de fazer um layout de teclado baseado no Colemak, adaptado para o idioma búlgaro e o alfabeto cirílico.
+
+![Visualize o Colemak búlgaro](./media/preview.png)
+
+| 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 0 | - | = |   | + |
+|:- |:- |:- |:- |:- |:- |:- |:- |:- |:- |:- |:- |:- |:- |
+| q | w | f | p | g | j | l | u | y | ; |\[ |\] |   |\} |
+| я | ш | ф | п | г | ж | л | у | й | щ | ю | ь |   | ѝ |
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |
+| a | r | s | t | d | h | n | e | i | o | ' |\\ |   |\| |
+| а | р | с | т | д | х | н | е | и | о | ъ | „ |   | “ |
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |
+| - | z | x | c | v | b | k | m | , | . | / |   |   |   |
+| ѝ | з | ч | ц | в | б | к | м | , | . | / |   |   |   |
 
 ## Links
 

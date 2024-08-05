@@ -2,9 +2,22 @@
 
 Tercüme: [english](README.md), [български](README.bg.md), [中文](README.zh-CN.md), [español](README.es.md), [العربية](README.ar.md), [português](README.pt.md), [русский](README.ru.md), [bahasa](README.id.md), [esperanto](README.eo.md)
 
-![Bulgar Colemak'ı önizleyin](./media/preview.png)
+---
 
 Bu benim Bulgar diline ve Kiril alfabesine uyarlanmış Colemak'ı temel alan bir klavye düzeni yapma girişimim.
+
+![Bulgar Colemak'ı önizleyin](./media/preview.png)
+
+| 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 0 | - | = |   | + |
+|:- |:- |:- |:- |:- |:- |:- |:- |:- |:- |:- |:- |:- |:- |
+| q | w | f | p | g | j | l | u | y | ; |\[ |\] |   |\} |
+| я | ш | ф | п | г | ж | л | у | й | щ | ю | ь |   | ѝ |
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |
+| a | r | s | t | d | h | n | e | i | o | ' |\\ |   |\| |
+| а | р | с | т | д | х | н | е | и | о | ъ | „ |   | “ |
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |
+| - | z | x | c | v | b | k | m | , | . | / |   |   |   |
+| ѝ | з | ч | ц | в | б | к | м | , | . | / |   |   |   |
 
 ## Bağlantılar
 
