@@ -8,16 +8,14 @@ Esta é minha tentativa de fazer um layout de teclado baseado no Colemak, adapta
 
 ![Visualize o Colemak búlgaro](./media/preview.png)
 
-| 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 0 | - | = |   | + |
-|:- |:- |:- |:- |:- |:- |:- |:- |:- |:- |:- |:- |:- |:- |
-| q | w | f | p | g | j | l | u | y | ; |\[ |\] |   |\} |
-| я | ш | ф | п | г | ж | л | у | й | щ | ю | ь |   | ѝ |
-|   |   |   |   |   |   |   |   |   |   |   |   |   |   |
-| a | r | s | t | d | h | n | e | i | o | ' |\\ |   |\| |
-| а | р | с | т | д | х | н | е | и | о | ъ | „ |   | “ |
-|   |   |   |   |   |   |   |   |   |   |   |   |   |   |
-| - | z | x | c | v | b | k | m | , | . | / |   |   |   |
-| ѝ | з | ч | ц | в | б | к | м | , | . | / |   |   |   |
+|  1  |  2  |  3  |  4  |  5  |  6  |  7  |  8  |  9  |  0  |  -   |  =   |
+| :-  | :-  | :-  | :-  | :-  | :-  | :-  | :-  | :-  | :-  | :-   | :-   |
+|**q**|**w**|**f**|**p**|**g**|**j**|**l**|**u**|**y**|**;**|**\[**|**\]**|
+|  я  |  ш  |  ф  |  п  |  г  |  ж  |  л  |  у  |  й  |  щ  |  ю  |  ь   |
+|**a**|**r**|**s**|**t**|**d**|**h**|**n**|**e**|**i**|**o**|**'** |**\\**|
+|  а  |  р  |  с  |  т  |  д  |  х  |  н  |  е  |  и  |  о  |  ъ  |  „   |
+|**-**|**z**|**x**|**c**|**v**|**b**|**k**|**m**|**,**|**.**|**/** |      |
+|  ѝ  |  з  |  ч  |  ц  |  в  |  б  |  к  |  м  |  ,  |  .  |  /  |      |
 
 ## Links
 
@@ -45,9 +43,9 @@ Se você encontrar um bug ou quiser sugerir uma melhoria, sinta-se à vontade pa
 
 ## Outros layouts de teclado
 
-* [Para o idioma Russo](https://salif.github.io/colemak-ru/)
 * [Para o idioma turco](https://salif.github.io/colemak-tr/)
 * [Para a língua Esperanto](https://salif.github.io/colemak-eo/)
+* [Para o alfabeto Esperanto Shavian](https://salif.github.io/shaw-eo/)
 
 ---
 

@@ -8,16 +8,14 @@ Ini adalah upaya saya untuk membuat tata letak keyboard berdasarkan Colemak, yan
 
 ![Pratinjau Colemak Bulgaria](./media/preview.png)
 
-| 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 0 | - | = |   | + |
-|:- |:- |:- |:- |:- |:- |:- |:- |:- |:- |:- |:- |:- |:- |
-| q | w | f | p | g | j | l | u | y | ; |\[ |\] |   |\} |
-| я | ш | ф | п | г | ж | л | у | й | щ | ю | ь |   | ѝ |
-|   |   |   |   |   |   |   |   |   |   |   |   |   |   |
-| a | r | s | t | d | h | n | e | i | o | ' |\\ |   |\| |
-| а | р | с | т | д | х | н | е | и | о | ъ | „ |   | “ |
-|   |   |   |   |   |   |   |   |   |   |   |   |   |   |
-| - | z | x | c | v | b | k | m | , | . | / |   |   |   |
-| ѝ | з | ч | ц | в | б | к | м | , | . | / |   |   |   |
+|  1  |  2  |  3  |  4  |  5  |  6  |  7  |  8  |  9  |  0  |  -   |  =   |
+| :-  | :-  | :-  | :-  | :-  | :-  | :-  | :-  | :-  | :-  | :-   | :-   |
+|**q**|**w**|**f**|**p**|**g**|**j**|**l**|**u**|**y**|**;**|**\[**|**\]**|
+|  я  |  ш  |  ф  |  п  |  г  |  ж  |  л  |  у  |  й  |  щ  |  ю  |  ь   |
+|**a**|**r**|**s**|**t**|**d**|**h**|**n**|**e**|**i**|**o**|**'** |**\\**|
+|  а  |  р  |  с  |  т  |  д  |  х  |  н  |  е  |  и  |  о  |  ъ  |  „   |
+|**-**|**z**|**x**|**c**|**v**|**b**|**k**|**m**|**,**|**.**|**/** |      |
+|  ѝ  |  з  |  ч  |  ц  |  в  |  б  |  к  |  м  |  ,  |  .  |  /  |      |
 
 ## Tautan
 
@@ -45,9 +43,9 @@ Jika Anda menemukan bug atau ingin menyarankan perbaikan, silakan membagikannya 
 
 ## Tata letak keyboard lainnya
 
-* [Untuk bahasa Rusia](https://salif.github.io/colemak-ru/)
 * [Untuk bahasa Turki](https://salif.github.io/colemak-tr/)
 * [Untuk bahasa Esperanto](https://salif.github.io/colemak-eo/)
+* [Untuk alfabet Esperanto Shavian](https://salif.github.io/shaw-eo/)
 
 ---
 

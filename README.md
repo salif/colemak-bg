@@ -8,16 +8,14 @@ This is my attempt to make a keyboard layout based on Colemak, adapted for the B
 
 ![Preview the Bulgarian Colemak](./media/preview.png)
 
-| 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 0 | - | = |   | + |
-|:- |:- |:- |:- |:- |:- |:- |:- |:- |:- |:- |:- |:- |:- |
-| q | w | f | p | g | j | l | u | y | ; |\[ |\] |   |\} |
-| я | ш | ф | п | г | ж | л | у | й | щ | ю | ь |   | ѝ |
-|   |   |   |   |   |   |   |   |   |   |   |   |   |   |
-| a | r | s | t | d | h | n | e | i | o | ' |\\ |   |\| |
-| а | р | с | т | д | х | н | е | и | о | ъ | „ |   | “ |
-|   |   |   |   |   |   |   |   |   |   |   |   |   |   |
-| - | z | x | c | v | b | k | m | , | . | / |   |   |   |
-| ѝ | з | ч | ц | в | б | к | м | , | . | / |   |   |   |
+|  1  |  2  |  3  |  4  |  5  |  6  |  7  |  8  |  9  |  0  |  -   |  =   |
+| :-  | :-  | :-  | :-  | :-  | :-  | :-  | :-  | :-  | :-  | :-   | :-   |
+|**q**|**w**|**f**|**p**|**g**|**j**|**l**|**u**|**y**|**;**|**\[**|**\]**|
+|  я  |  ш  |  ф  |  п  |  г  |  ж  |  л  |  у  |  й  |  щ  |  ю  |  ь   |
+|**a**|**r**|**s**|**t**|**d**|**h**|**n**|**e**|**i**|**o**|**'** |**\\**|
+|  а  |  р  |  с  |  т  |  д  |  х  |  н  |  е  |  и  |  о  |  ъ  |  „   |
+|**-**|**z**|**x**|**c**|**v**|**b**|**k**|**m**|**,**|**.**|**/** |      |
+|  ѝ  |  з  |  ч  |  ц  |  в  |  б  |  к  |  м  |  ,  |  .  |  /  |      |
 
 ## Links
 
@@ -45,9 +43,9 @@ If you find a bug or want to suggest an improvement, feel free to share it on [C
 
 ## Other keyboard layouts
 
-* [For Russian language](https://salif.github.io/colemak-ru/)
 * [For Turkish language](https://salif.github.io/colemak-tr/)
 * [For Esperanto language](https://salif.github.io/colemak-eo/)
+* [For Esperanto Shavian alphabet](https://salif.github.io/shaw-eo/)
 
 ---
 

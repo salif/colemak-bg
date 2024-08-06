@@ -8,16 +8,14 @@ Bu benim Bulgar diline ve Kiril alfabesine uyarlanmış Colemak'ı temel alan bi
 
 ![Bulgar Colemak'ı önizleyin](./media/preview.png)
 
-| 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 0 | - | = |   | + |
-|:- |:- |:- |:- |:- |:- |:- |:- |:- |:- |:- |:- |:- |:- |
-| q | w | f | p | g | j | l | u | y | ; |\[ |\] |   |\} |
-| я | ш | ф | п | г | ж | л | у | й | щ | ю | ь |   | ѝ |
-|   |   |   |   |   |   |   |   |   |   |   |   |   |   |
-| a | r | s | t | d | h | n | e | i | o | ' |\\ |   |\| |
-| а | р | с | т | д | х | н | е | и | о | ъ | „ |   | “ |
-|   |   |   |   |   |   |   |   |   |   |   |   |   |   |
-| - | z | x | c | v | b | k | m | , | . | / |   |   |   |
-| ѝ | з | ч | ц | в | б | к | м | , | . | / |   |   |   |
+|  1  |  2  |  3  |  4  |  5  |  6  |  7  |  8  |  9  |  0  |  -   |  =   |
+| :-  | :-  | :-  | :-  | :-  | :-  | :-  | :-  | :-  | :-  | :-   | :-   |
+|**q**|**w**|**f**|**p**|**g**|**j**|**l**|**u**|**y**|**;**|**\[**|**\]**|
+|  я  |  ш  |  ф  |  п  |  г  |  ж  |  л  |  у  |  й  |  щ  |  ю  |  ь   |
+|**a**|**r**|**s**|**t**|**d**|**h**|**n**|**e**|**i**|**o**|**'** |**\\**|
+|  а  |  р  |  с  |  т  |  д  |  х  |  н  |  е  |  и  |  о  |  ъ  |  „   |
+|**-**|**z**|**x**|**c**|**v**|**b**|**k**|**m**|**,**|**.**|**/** |      |
+|  ѝ  |  з  |  ч  |  ц  |  в  |  б  |  к  |  м  |  ,  |  .  |  /  |      |
 
 ## Bağlantılar
 
@@ -45,9 +43,9 @@ Bir hata bulursanız veya bir iyileştirme önermek isterseniz, bunu [Codeberg] 
 
 ## Diğer klavye düzenleri
 
-* [Rus dili için](https://salif.github.io/colemak-ru/)
 * [Türkçe dili için](https://salif.github.io/colemak-tr/)
 * [Esperanto dili için](https://salif.github.io/colemak-eo/)
+* [Esperanto Şavi alfabesi için](https://salif.github.io/shaw-eo/)
 
 ---
 
